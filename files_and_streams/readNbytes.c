@@ -31,5 +31,6 @@ int main(int argc, char* argv[]){
 	for(int i=0;i<bytes;i++){
 		printf("%x\n",buffer[i]);
 	}
+	close(fd);
 	return 0;
 }
